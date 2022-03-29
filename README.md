@@ -79,7 +79,7 @@ Copy The Html/JavaScript Code From The [index.html](https://github.com/PixelPlay
              <br>
              <br>
              <h3>* This Is My First Project So Expect Some Bugs</h3>
-             <h3>If You Want Source Code Of This Project It Will Be Available On My <a href="url">GitHub</a>.</h3>
+             <h3>If You Want Source Code Of This Project It Will Be Available On My <a href="https://github.com/PixelPlayz1887/Google-Drive-Direct-Link-Generator">GitHub</a>.</h3>
         </div>
         <script>
             function myFunction(){
