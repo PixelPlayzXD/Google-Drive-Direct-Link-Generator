@@ -84,10 +84,12 @@ Copy The Html/JavaScript Code From The [index.html](https://github.com/PixelPlay
         <script>
             function myFunction(){
                 var glink = document.getElementById("glink").value;
-                var id = "https://drive.google.com/uc?export=download&id=";
+                var id = "https://drive.google.com/uc?id=";
+                var id2 = "&confirm=t";
                 var replaced = glink.replace("https://drive.google.com/file/d/", "");
                 var replaced = replaced.replace("/view?usp=sharing", "");
                 var link = id.concat(replaced);
+                var link = link.concat(id2);
                 var flag = "https://drive.google.com/uc?export=download&id=";
                 var msg = "Please enter a valid Google Drive link!!!";
                 if (link != flag){
