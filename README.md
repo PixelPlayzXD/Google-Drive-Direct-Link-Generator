@@ -1,11 +1,13 @@
 # Google Drive Direct Link Generator
 
 This Program Is Coded In HTML & Javascript Only 
+
 So If You Want You Can Open This Wile Without Hosting It On Any Server. That Means Completly Offline.
 
 ## Introduction
 
 Hi my name is PixelPlayz
+
 This is my first open source project as a developer.
 
 ## Change Logs
@@ -16,6 +18,7 @@ This is my first open source project as a developer.
 ### v0.1.0
 
 • Released
+
 • Create Direct Link For Files UP to 100 MB (Files Above That Limit Will Not Be Scanned For Antivirus By Google.)
 
 
