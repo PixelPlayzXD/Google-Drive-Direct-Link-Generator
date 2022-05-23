@@ -1,14 +1,28 @@
-# Introduction
+# Google Drive Direct Link Generator
+
+This Program Is Coded In HTML & Javascript Only 
+So If You Want You Can Open This Wile Without Hosting It On Any Server. That Means Completly Offline.
+
+## Introduction
 
 Hi my name is PixelPlayz
 This is my first open source project as a developer.
 
-Note: This Only Generates Direct Link For Files Under 100MB.
-Files Above That Limit Will Not Be Scanned For Antivirus By Google.
+## Change Logs
+### v0.2.0
+
+• Added Support For Files UP to 5 TB (Which As Of Now Is The Maximum Size For A Single File In Google Drive)
+
+### v0.1.0
+
+• Released
+• Create Direct Link For Files UP to 100 MB (Files Above That Limit Will Not Be Scanned For Antivirus By Google.)
+
+
 
 ## Installation
 
-Copy The Html/JavaScript Code From The [index.html](https://github.com/PixelPlayz1887/Google-Drive-Direct-Link-Generator/blob/fb170a88bf6e9235780164335b1113e6ec8f9d37/index.html) or from below and paste inside your website folder as AnyName.html.
+Copy The Html/JavaScript Code From The [index.html](https://github.com/PixelPlayz1887/Google-Drive-Direct-Link-Generator/blob/main/index.html) or from below and paste inside your website folder as AnyName.html
 
 ```html
 <!DOCTYPE html>
@@ -102,10 +116,15 @@ Copy The Html/JavaScript Code From The [index.html](https://github.com/PixelPlay
     </body>
 </html>
 ```
+    
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
+
+
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
