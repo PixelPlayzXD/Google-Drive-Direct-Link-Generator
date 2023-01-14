@@ -66,24 +66,15 @@
              <br>
              <br>
              <h3>* This Is My First Project So Expect Some Bugs</h3>
-             <h3>If You Want Source Code Of This Project It Will Be Available On My <a href="https://github.com/PixelPlayz1887/Google-Drive-Direct-Link-Generator">GitHub</a>.</h3>
+             <h3>If You Want Source Code Of This Project It Will Be Available On My <a href="https://github.com/PixelPlayXD/Google-Drive-Direct-Link-Generator">GitHub</a>.</h3>
         </div>
         <script>
             function myFunction(){
-                var glink = document.getElementById("glink").value;
-                var id = "https://drive.google.com/uc?id=";
-                var id2 = "&confirm=t";
-                var replaced = glink.replace("https://drive.google.com/file/d/", "");
-                var replaced = replaced.replace("/view?usp=sharing", "");
-                var link = id.concat(replaced);
-                var link = link.concat(id2);
-                var flag = "https://drive.google.com/uc?export=download&id=";
-                var msg = "Please enter a valid Google Drive link!!!";
-                if (link != flag){
-                    document.getElementById("link").innerHTML = link;
-                } else {
-                    document.getElementById("link").innerHTML = msg;
-                }
+                var glink = "https://drive.google.com/file/d/1BMNWqro86SogIOFaasA8Zk0J7c5u2jQJ/view?usp=sharing"; // document.getElementById("glink").value;
+                var index = glink.indexOf("d" , glink.indexOf("d")+1);
+                var id = glink.substring(index + 2, index + 35);
+                var link = ("https://drive.google.com/uc?id=".concat(id)).concat("&confirm=t");
+                document.getElementById("link").innerHTML = link;
             }
         </script>
     </body>
