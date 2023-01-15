@@ -101,7 +101,7 @@ Copy The Html/JavaScript Code From The [index.html](https://github.com/PixelPlay
         </div>
         <script>
             function myFunction(){
-                var glink = "https://drive.google.com/file/d/1BMNWqro86SogIOFaasA8Zk0J7c5u2jQJ/view?usp=sharing"; // document.getElementById("glink").value;
+                var glink = document.getElementById("glink").value;
                 var index = glink.indexOf("d" , glink.indexOf("d")+1);
                 var id = glink.substring(index + 2, index + 35);
                 var link = ("https://drive.google.com/uc?id=".concat(id)).concat("&confirm=t");
