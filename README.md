@@ -12,6 +12,13 @@ Hi my name is PixelPlayz
 This is my first open source project as a developer.
 
 ## Change Logs
+### v0.4.0
+
+• Fixed same link generation issue
+
+### v0.3.0
+
+• Optimized the script
 ### v0.2.0
 
 • Added Support For Files UP to 5 TB (Which As Of Now Is The Maximum Size For A Single File In Google Drive)
