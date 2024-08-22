@@ -73,7 +73,7 @@
                 var glink = document.getElementById("glink").value;
                 var index = glink.indexOf("d" , glink.indexOf("d")+1);
                 var id = glink.substring(index + 2, index + 35);
-                var link = ("https://drive.google.com/uc?id=".concat(id)).concat("&confirm=t");
+                var link = ("https://drive.google.com/uc?id=".concat(id)).concat("&authuser=0&confirm=t");
                 document.getElementById("link").innerHTML = link;
             }
         </script>
