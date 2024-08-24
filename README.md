@@ -12,6 +12,10 @@ Hi my name is PixelPlayz
 This is my first open source project as a developer.
 
 ## Change Logs
+### v0.5.0
+
+• Google drive changed how their system works so now this only works for users who are not logged into google drive
+
 ### v0.4.0
 
 • Fixed same link generation issue
